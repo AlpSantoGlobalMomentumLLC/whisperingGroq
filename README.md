@@ -36,6 +36,7 @@
 
 This is an MOD of the outstanding Whispering App (not from me) and and I don't change much.
 The only change is that it's to use the Groq API, not the OpenAI API. 
+By the way: "Groq or Grok : Groq is not Grok. Grok is the AI model developed by X/Twitter whereas Groq is a new technology for chips allowing for efficient LLM execution."
 That means I only changed four lines in this file: packages/shared/src/services/TranscriptionServiceWhisperingLive.ts
 
 And I would recommend to use the original version, if he maybe published a version with Groq support, in the future.
