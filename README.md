@@ -34,7 +34,17 @@
 
 ## About
 
+This is an MOD of the outstanding Whispering App (not from me) and and I don't change much.
+The only change is that it's to use the Groq API, not the OpenAI API.
+And I would recommend to use the original version, if he maybe published the Groq support in the  uture.
+After the installation, And you have to re-register the shortcuts, if you had their app installed before.
+ I'm not sure if a auto update function is still implemented, but then it will override this version with a standard version.
+
+You get your faster and more precise Whisper 3 API model from Groq here:
+https://console.groq.com/keys
+
 Whispering Fork is an open-source transcription application that provides global speech-to-text functionality, with options such as keyboard shortcuts and automatic copy and paste to make dictating as seamless as possible.
+From here on, it's a copy of the original text...
 
 Under the hood, it's powered by Groq's Whisper API, making it significantly more accurate than built-in dictation.
 
