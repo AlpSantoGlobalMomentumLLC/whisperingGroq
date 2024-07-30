@@ -35,13 +35,20 @@
 ## About
 
 This is an MOD of the outstanding Whispering App (not from me) and and I don't change much.
-The only change is that it's to use the Groq API, not the OpenAI API.
-And I would recommend to use the original version, if he maybe published the Groq support in the  uture.
-After the installation, And you have to re-register the shortcuts, if you had their app installed before.
- I'm not sure if a auto update function is still implemented, but then it will override this version with a standard version.
+The only change is that it's to use the Groq API, not the OpenAI API. 
+That means I only changed four lines in this file: packages/shared/src/services/TranscriptionServiceWhisperingLive.ts
+
+And I would recommend to use the original version, if he maybe published a version with Groq support, in the future.
+Tipp: After the installation, you have to re-register the shortcuts, if you had an OpenAI version before.
+Open Question: I'm not sure if a auto update function is still implemented, but then it will override this version with a standard version.
 
 You get your faster and more precise Whisper 3 API model from Groq here:
 https://console.groq.com/keys
+
+Groq supports the newer whisper V3 model.
+In my experience, it is more precise with shorter sentences and in general more accurate.
+Here are some information about speed: https://wow.groq.com/artificialanalysis-ai-llm-benchmark-doubles-axis-to-fit-new-groq-lpu-inference-engine-performance-results/
+In my feeling, it's most of the time faster. I don't see the 173 times faster, but it's faster in my expiriance. 
 
 Whispering Fork is an open-source transcription application that provides global speech-to-text functionality, with options such as keyboard shortcuts and automatic copy and paste to make dictating as seamless as possible.
 Here's the original project for the OpenAI API. https://github.com/braden-w/whispering
