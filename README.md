@@ -2,8 +2,8 @@
   <a href="https://whispering.bradenwong.com">
     <img width="180" src="./apps/app/src-tauri/icons/recorder_state/studio_microphone.png" alt="Whispering">
   </a>
-  <h1 align="center">Whispering</h1>
-  <p align="center">Seamless dictation powered by OpenAI Whisper</p>
+  <h1 align="center">Whispering Groq Fork</h1>
+  <p align="center">Seamless dictation powered by Groq Whisper</p>
 </p>
 
 <p align="center">
@@ -34,9 +34,9 @@
 
 ## About
 
-Whispering is an open-source transcription application that provides global speech-to-text functionality, with options such as keyboard shortcuts and automatic copy and paste to make dictating as seamless as possible.
+Whispering Fork is an open-source transcription application that provides global speech-to-text functionality, with options such as keyboard shortcuts and automatic copy and paste to make dictating as seamless as possible.
 
-Under the hood, it's powered by OpenAI's Whisper API, making it significantly more accurate than built-in dictation.
+Under the hood, it's powered by Groq's Whisper API, making it significantly more accurate than built-in dictation.
 
 ## Demos
 
