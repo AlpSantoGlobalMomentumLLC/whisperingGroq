@@ -46,7 +46,7 @@ Open Question: I'm not sure if a auto update function is still implemented, but 
 You get your faster and more precise Whisper 3 API model from Groq here:
 https://console.groq.com/keys
 
-## WHY
+## WHY a MOD
 Groq supports the newer whisper V3 model via API (OpenAI supports only V2 via API).
 Groq  is 10 times cheaper.
 It has less delay: https://wow.groq.com/artificialanalysis-ai-llm-benchmark-doubles-axis-to-fit-new-groq-lpu-inference-engine-performance-results/
