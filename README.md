@@ -46,10 +46,13 @@ Open Question: I'm not sure if a auto update function is still implemented, but 
 You get your faster and more precise Whisper 3 API model from Groq here:
 https://console.groq.com/keys
 
-Groq supports the newer whisper V3 model.
-In my experience, it is more precise with shorter sentences and in general more accurate.
-Here are some information about speed: https://wow.groq.com/artificialanalysis-ai-llm-benchmark-doubles-axis-to-fit-new-groq-lpu-inference-engine-performance-results/
-In my feeling, it's most of the time faster. I don't see the 173 times faster, but it's faster in my expiriance. 
+## WHY
+Groq supports the newer whisper V3 model via API (OpenAI supports only V2 via API).
+Groq  is 10 times cheaper.
+It has less delay: https://wow.groq.com/artificialanalysis-ai-llm-benchmark-doubles-axis-to-fit-new-groq-lpu-inference-engine-performance-results/
+In my experience, it is more precise expressly with shorter sentences and in general more accurate.
+Quality comparison https://github.com/openai/whisper
+
 
 Whispering Fork is an open-source transcription application that provides global speech-to-text functionality, with options such as keyboard shortcuts and automatic copy and paste to make dictating as seamless as possible.
 Here's the original project for the OpenAI API. https://github.com/braden-w/whispering
