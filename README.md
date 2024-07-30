@@ -2,7 +2,7 @@
   <a href="https://whispering.bradenwong.com">
     <img width="180" src="./apps/app/src-tauri/icons/recorder_state/studio_microphone.png" alt="Whispering">
   </a>
-  <h1 align="center">Whispering Groq Fork</h1>
+  <h1 align="center">Windows Whispering Groq Fork</h1>
   <p align="center">Seamless dictation powered by Groq Whisper</p>
 </p>
 
