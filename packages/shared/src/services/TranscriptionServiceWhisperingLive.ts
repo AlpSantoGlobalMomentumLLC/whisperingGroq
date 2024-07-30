@@ -146,10 +146,10 @@ export const TranscriptionServiceWhisperLive = Layer.succeed(
 		),
 		transcribe: (audioBlob, { apiKey, outputLanguage }) =>
 			Effect.gen(function* () {
-				if (!apiKey.startsWith('sk-')) {
+				if (!apiKey.startsWith('gsk_')) {
 					return yield* new WhisperingError({
 						title: 'Invalid API Key',
-						description: 'The API Key must start with "sk-"',
+						description: 'The API Key must start with "gsk_"',
 						action: {
 							label: 'Update API Key',
 							goto: '/settings',
@@ -166,11 +166,11 @@ export const TranscriptionServiceWhisperLive = Layer.succeed(
 				const wavFile = new File([audioBlob], FILE_NAME);
 				const formData = new FormData();
 				formData.append('file', wavFile);
-				formData.append('model', 'whisper-1');
+				formData.append('model', 'whisper-large-v3');
 				if (outputLanguage !== 'auto') formData.append('language', outputLanguage);
 				const data = yield* Effect.tryPromise({
 					try: () =>
-						fetch('https://api.openai.com/v1/audio/transcriptions', {
+						fetch('https://api.groq.com/openai/v1/audio/transcriptions', {
 							method: 'POST',
 							headers: { Authorization: `Bearer ${apiKey}` },
 							body: formData,
